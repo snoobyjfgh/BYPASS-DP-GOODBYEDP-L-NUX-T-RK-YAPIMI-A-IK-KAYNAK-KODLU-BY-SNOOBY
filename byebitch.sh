@@ -9,4 +9,4 @@ sudo nmcli connection modify "$SSID" ipv4.dns "8.8.8.8 8.8.4.4"
 sudo nmcli connection modify "$SSID" ipv4.ignore-auto-dns yes
 sudo nmcli connection up "$SSID"
 
-echo "✔️ DNS successfully updated for SSID: $SSID — made by snooby"
+echo "✔️— made by snooby"
